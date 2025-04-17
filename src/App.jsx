@@ -25,17 +25,19 @@ function App() {
 
         <div className="flex flex-col sm:flex-row items-center gap-2 w-full justify-center">
           <a
+            target="_blank"
             href="https://play.google.com/store/apps/details?id=com.mytracksdarren.roe"
             className="rounded-lg w-fit flex items-center justify-center transition-all duration-300 "
           >
             <img className="h-10" src={google} alt="Google Play Store" />
           </a>
-
-          <div onClick={()=>{
-            alert('Coming soon')
-          }} className="rounded-lg w-fit flex items-center justify-center transition-all duration-300 ">
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/my-tracks-app/id6744345686"
+            className="rounded-lg w-fit flex items-center justify-center transition-all duration-300 "
+          >
             <img className="h-10" src={apple} alt="Apple App Store" />
-          </div>
+          </a>
         </div>
       </div>
     </div>
