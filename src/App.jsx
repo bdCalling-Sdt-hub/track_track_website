@@ -33,7 +33,7 @@ function App() {
           </a>
           <a
             target="_blank"
-            href="https://apps.apple.com/us/app/my-tracks-app/id6744345686"
+            href="https://apps.apple.com/us/app/my-tracks-app/id6744345686?platform=iphone"
             className="rounded-lg w-fit flex items-center justify-center transition-all duration-300 "
           >
             <img className="h-10" src={apple} alt="Apple App Store" />
