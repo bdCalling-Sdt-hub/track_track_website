@@ -19,8 +19,8 @@ function App() {
 
         {/* Subheading */}
         <p className="text-white text-lg md:text-xl mb-8 max-w-xl">
-          Track your fitness journey and achieve your goals with our
-          comprehensive app
+          Create and manage your own racing tracks, challenge yourself, and race
+          towards victory with our dynamic app.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-2 w-full justify-center">
